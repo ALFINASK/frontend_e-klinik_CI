@@ -1,0 +1,263 @@
+/* Header */
+#header {
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#header .header-container {
+  background: #fff;
+}
+
+#header .logo {
+  overflow: hidden;
+  padding: 7px 25px 7px 25px;
+  background: #009970;
+}
+
+#header .logo h1 a,
+#header .logo h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#header .logo img {
+  padding: 0;
+  margin: 0;
+  max-height: 75px;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  color: #36343a;
+  transition: 0.3s;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.navbar a i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar li:hover > a {
+  color: #009970;
+}
+
+.navbar .logout {
+  background: #009970;
+  padding: 10px 25px;
+  margin-left: 30px;
+  margin-right: 15px;
+  border-radius: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .logout:hover {
+  color: #fff;
+  background: #137057;
+}
+
+/* alur */
+#daftar-pasien-adm {
+  background: #ffffff;
+}
+
+/* Section General */
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f6f6f7;
+}
+
+.section-title {
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #009970;
+  bottom: 0;
+  left: 0;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+.section-title img {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* body-content */
+#body-content {
+  padding-top: 70px;
+}
+
+#antrian-berlangsung {
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
+  margin: 10px 0 5px 0;
+  color: #009970;
+  padding: 25px 40px;
+}
+
+.table .thead-dark {
+  background-color: #009970;
+  color: #fff;
+  text-align: center;
+}
+
+/* footer */
+#footer {
+  color: #444444;
+  font-size: 14px;
+  background: #f1f0f2;
+}
+
+#footer .credits {
+  padding-top: 5px;
+  font-size: 13px;
+  color: #444444;
+}
+
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #009970;
+  color: #fff;
+  line-height: 1;
+  padding: 6px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+  background: #00805d;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Services */
+#services {
+  padding-top: 120px;
+  padding-bottom: 30px;
+  background: #fff;
+}
+
+.table .thead-services {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.tbody-services {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.services .icon-box {
+  text-align: left;
+  padding: 20px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #007455;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.services .icon-box .icon {
+  margin: 0 auto;
+  width: 94px;
+  height: 94px;
+  border-radius: 50px;
+  border: 1px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  color: #ffffff;
+}
+
+.services .icon-box .icon img {
+  height: 100%;
+}
+
+.services .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 22px;
+}
+
+.services .icon-box p {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.services .icon-box:hover h4 {
+  color: rgb(184, 184, 184);
+}
+
+.services .icon-box:hover p {
+  color: rgb(184, 184, 184);
+}
+
+.services .icon-box:hover {
+  border-color: rgb(0, 0, 0);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.services .icon-box:hover .icon {
+  background: #ffffff;
+}
